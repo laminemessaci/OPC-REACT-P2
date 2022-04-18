@@ -2,6 +2,7 @@
 
 * {
     font-family: "Raleway", Verdana, sans-serif;
+    box-sizing: border-box;
 }
 
 input,
@@ -16,6 +17,7 @@ button:focus {
 
 body {
     margin: 0px;
+    padding: 0px;
 }
 
 a {
@@ -45,3 +47,42 @@ h3 {
     margin: 20px;
     padding-bottom: 10px;
 }
+
+/* Header */
+
+header div {
+    padding: 5px 10px;
+    display: flex;
+    align-items: flex-end;
+    max-width: 1450px;
+    margin: auto;
+}
+
+header #logo {
+    flex-grow: 1;
+}
+
+
+header a {
+    margin: 0px 35px;
+}
+
+header>div>nav>ul {
+    display: flex;
+ 
+}
+
+header>div>nav .menu-link {
+    display: flex;
+    align-items: center;
+    padding-top: 45px;
+}
+
+header>div>nav .menu-link:hover {
+    border-top: 2px solid #0065fc;
+    color: #0065fc;
+    font-weight: bold;
+}
+
+
+
