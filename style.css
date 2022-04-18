@@ -1,0 +1,185 @@
+/* All */
+
+* {
+    font-family: "Raleway", Verdana, sans-serif;
+    /* box-sizing: border-box; */
+}
+
+input,
+button {
+    border: none;
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    margin: 10px 0px;
+}
+
+h1 {
+    margin: 10px 0px;
+    font-size: 22px;
+}
+
+h2 {
+    margin: 10px 0px;
+    font-size: 22px;
+}
+h3 {
+    font-size: 14px;
+    margin: 20px;
+    padding-bottom: 10px;
+}
+
+/* Header */
+
+header div {
+    padding: 5px 10px;
+    display: flex;
+    align-items: flex-end;
+    max-width: 1450px;
+    margin: auto;
+}
+
+header #logo {
+    flex-grow: 1;
+}
+
+header a {
+    margin: 0px 35px;
+}
+
+header>div>nav>ul {
+    display: flex;
+ 
+}
+
+header>div>nav .menu-link {
+    display: flex;
+    align-items: center;
+    padding-top: 45px;
+}
+
+header>div>nav .menu-link:hover {
+    border-top: 2px solid #0065fc;
+    color: #0065fc;
+    font-weight: bold;
+}
+
+/* main-content */
+#main-content {
+    padding: 0px 50px;
+    margin: auto;
+    margin-bottom: 50px;
+    max-width: 1450px;
+}
+
+/* search-input */
+#search-input {
+    background-color: #d3d3d342;
+    border-radius: 18px;
+    height: 48px;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#search-input .icon {
+    margin: 20px;
+    font-size: 18px;
+}
+
+#search-input input {
+    height: 44px;
+    width: 220px;
+    font-size: 18px;
+    padding-left: 20px;
+    font-weight: bold;
+    border-top: 1px solid #d3d3d342;
+    border-bottom: 1px solid #d3d3d342;
+}
+
+#search-input button {
+    height: 100%;
+    width: 140px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #0065fc;
+    border-radius: 0 15px 15px 0;
+}
+
+#search-input button i {
+    display: none;
+}
+
+
+/* filter */
+
+#filter {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 35px 0px;
+}
+
+#filter h2 {
+    margin-right: 20px;
+}
+
+#filter button {
+    margin: 5px 20px;
+    background-color: transparent;
+    border: 1px solid lightgray;
+    height: 48px;
+    border-radius: 25px;
+}
+
+#filter button:hover {
+    color: #deebff;
+    background-color: #0065fc;
+    cursor: pointer;
+}
+
+.filter-icon {
+    background-color: #deebff;
+    color: #0065fc;
+    padding: 14px 16px;
+    font-size: 18px;
+    border-radius: 50%;
+    margin-left: -7px;
+}
+
+.filter-icon> .fa-money-bill-wave{
+    font-size:small;
+}
+ .filter-icon> .fa-child{
+    font-size:larger;
+ }
+ .filter-icon> .fa-dog{
+     font-size: medium;
+ }
+.filter-text {
+    margin: 0px 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
