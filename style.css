@@ -2,7 +2,7 @@
 
 * {
     font-family: "Raleway", Verdana, sans-serif;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 input,
@@ -62,7 +62,6 @@ header #logo {
     flex-grow: 1;
 }
 
-
 header a {
     margin: 0px 35px;
 }
@@ -82,6 +81,53 @@ header>div>nav .menu-link:hover {
     border-top: 2px solid #0065fc;
     color: #0065fc;
     font-weight: bold;
+}
+
+/* main-content */
+#main-content {
+    padding: 0px 50px;
+    margin: auto;
+    margin-bottom: 50px;
+    max-width: 1450px;
+}
+
+/* search-input */
+#search-input {
+    background-color: #d3d3d342;
+    border-radius: 18px;
+    height: 48px;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#search-input .icon {
+    margin: 20px;
+    font-size: 18px;
+}
+
+#search-input input {
+    height: 44px;
+    width: 220px;
+    font-size: 18px;
+    padding-left: 20px;
+    font-weight: bold;
+    border-top: 1px solid #d3d3d342;
+    border-bottom: 1px solid #d3d3d342;
+}
+
+#search-input button {
+    height: 100%;
+    width: 140px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #0065fc;
+    border-radius: 0 15px 15px 0;
+}
+
+#search-input button i {
+    display: none;
 }
 
 
