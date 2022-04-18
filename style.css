@@ -1,0 +1,47 @@
+/* All */
+
+* {
+    font-family: "Raleway", Verdana, sans-serif;
+}
+
+input,
+button {
+    border: none;
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+body {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    margin: 10px 0px;
+}
+
+h1 {
+    margin: 10px 0px;
+    font-size: 22px;
+}
+
+h2 {
+    margin: 10px 0px;
+    font-size: 22px;
+}
+h3 {
+    font-size: 14px;
+    margin: 20px;
+    padding-bottom: 10px;
+}
