@@ -62,6 +62,12 @@ header div {
 header #logo {
     flex-grow: 1;
 }
+#logo :hover{
+    padding: 8px;
+    border-radius: 50%;
+    background-color:lavender;
+    cursor: pointer;
+}
 
 header a {
     margin: 0px 35px;
