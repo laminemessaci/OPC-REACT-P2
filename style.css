@@ -265,3 +265,61 @@ header>div>nav .menu-link:hover {
     margin: 4px 0px;
     font-size: 14px;
 }
+
+/* icon-score */
+
+.icon-score {
+    font-size: 12px;
+    color: #0065fc;
+}
+
+.icon-score .inactive {
+    color: lightgray;
+}
+
+
+/* hotel-popular-list */
+
+#hotel-popular-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 35px;
+    row-gap: 35px;
+}
+
+#hotel-popular-list article {
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 35px;
+}
+
+#hotel-popular-list article:hover {
+    transform: scale(1.02);
+}
+
+#hotel-popular-list article:last-child {
+    margin-bottom: 0px;
+}
+
+#hotel-popular-list img {
+    width: 130px;
+    height: 140px;
+    object-fit: cover;
+    flex-shrink: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#hotel-popular-list .hotel-info {
+    margin: 10px 30px 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+
+
