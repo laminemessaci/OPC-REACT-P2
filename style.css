@@ -85,7 +85,7 @@ header>div>nav .menu-link:hover {
 
 /* main-content */
 #main-content {
-    padding: 0px 0px;
+    padding: 0px 50px;
     margin: auto;
     margin-bottom: 50px;
     max-width: 1450px;
