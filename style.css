@@ -2,7 +2,7 @@
 
 * {
     font-family: "Raleway", Verdana, sans-serif;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
 input,
@@ -85,7 +85,7 @@ header>div>nav .menu-link:hover {
 
 /* main-content */
 #main-content {
-    padding: 0px 50px;
+    padding: 0px 0px;
     margin: auto;
     margin-bottom: 50px;
     max-width: 1450px;
