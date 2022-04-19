@@ -1,2 +1,3 @@
 # OPC-REACT-P2
-HTML &amp; CSS refresh
+HTML CSS refresh
+Projet N°2 Transformer une maquette en un site web avec HTML & CSS

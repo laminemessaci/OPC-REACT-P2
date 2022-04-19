@@ -182,4 +182,20 @@ header>div>nav .menu-link:hover {
 }
 
 
+/* info section */
+
+#filter-section {
+    display: flex;
+    align-items: center;
+}
+.info-icon {
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+    border: 0.3px solid lightgray;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #0065fc;
+}
+
+
 
