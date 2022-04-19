@@ -51,15 +51,22 @@ h3 {
 /* Header */
 
 header div {
-    padding: 5px 10px;
+    padding: 5px 50px;
     display: flex;
     align-items: flex-end;
+    flex-wrap: wrap;
     max-width: 1450px;
     margin: auto;
 }
 
 header #logo {
     flex-grow: 1;
+}
+#logo :hover{
+    padding: 8px;
+    border-radius: 50%;
+    background-color:lavender;
+    cursor: pointer;
 }
 
 header a {
