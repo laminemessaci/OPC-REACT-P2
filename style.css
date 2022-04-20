@@ -63,10 +63,8 @@ header #logo {
     flex-grow: 1;
 }
 #logo :hover{
-    padding: 8px;
-    border-radius: 50%;
-    background-color:lavender;
     cursor: pointer;
+  
 }
 
 header a {
@@ -327,6 +325,76 @@ header>div>nav .menu-link:hover {
 }
 
 
+/* activity section */
 
+#activities {
+    margin: auto;
+    max-width: 1450px;
+    margin-top: 50px;
+    padding: 30px 0px;
+}
 
+#activity-list {
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 35px;
+    row-gap: 35px;
+}
 
+#section-activities div {
+    height: 500px;
+}
+
+.activity-card {
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 20px;
+}
+
+.activity-card:hover {
+    transform: scale(1.02);
+}
+
+.vertical-card img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+h3 {
+    font-size: 14px;
+    margin: 20px;
+    padding-bottom: 10px;
+}
+
+.horizontal-card {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+.horizontal-card img {
+    width: 100%;
+    height: 160px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+}
+
+.horizontal-card:first-child {
+    margin-bottom: 35px;
+}
+
+.card-pomegues img {
+    height: 200px;
+}
+
+.card-iles {
+    height: 200px;
+}
+
+.card-iles img {
+    height: 120px;
+}
