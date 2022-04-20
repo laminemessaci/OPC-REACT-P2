@@ -1,23 +1,23 @@
 /* All */
 
-* {
-    font-family: "Raleway", Verdana, sans-serif;
+* , ::before, ::after{
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
-input,
-button {
+body {
+    font-family: "Raleway", Verdana, sans-serif;
+  
+}
+
+input, button {
     border: none;
 }
 
 input:focus,
 button:focus {
     outline: none;
-}
-
-body {
-    margin: 0px;
-    padding: 0px;
 }
 
 a {
@@ -42,6 +42,7 @@ h2 {
     margin: 10px 0px;
     font-size: 22px;
 }
+
 h3 {
     font-size: 14px;
     margin: 20px;
@@ -87,6 +88,7 @@ header>div>nav .menu-link:hover {
     color: #0065fc;
     font-weight: bold;
 }
+
 
 /* main-content */
 #main-content {
@@ -355,7 +357,7 @@ header>div>nav .menu-link:hover {
     transform: scale(1.02);
 }
 
-.vertical-card img {
+.stretched-card img {
     width: 100%;
     height: 450px;
     object-fit: cover;
