@@ -193,6 +193,7 @@ header>div>nav .menu-link:hover {
 #filter-section {
     display: flex;
     align-items: center;
+    margin-bottom: 35px;
 }
 .info-icon {
     margin: 10px;
