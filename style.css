@@ -89,7 +89,6 @@ header>div>nav .menu-link:hover {
     font-weight: bold;
 }
 
-
 /* main-content */
 #main-content {
     padding: 0px 50px;
@@ -399,4 +398,23 @@ h3 {
 
 .card-iles img {
     height: 120px;
+}
+
+
+footer {
+    background-color: #f2f2f2;
+    text-decoration: none;
+}
+
+footer #footer-block {
+    display: flex;
+    margin: auto;
+    padding: 40px 60px;
+    max-width: 1350px;
+}
+
+footer article {
+    width: 33%;
+    line-height: 30px;
+    font-size: 16px;
 }
