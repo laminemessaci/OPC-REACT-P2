@@ -419,3 +419,27 @@ footer article {
     line-height: 30px;
     font-size: 16px;
 }
+
+/* Mobile Responsive media queries */
+
+@media (max-width: 1024px) {
+    #hotel {
+        border: 2px solid red;
+        width: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #activity-list {
+        border: 2px solid green;
+        width: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+
+
+
+   
