@@ -440,7 +440,7 @@ footer article {
 
 }
 
-@media (max-width: 650px) {
+@media (max-width: 768px) {
 
     #main-content {
         padding: 0px 10px;
