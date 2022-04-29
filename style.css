@@ -63,6 +63,7 @@ header div {
 header #logo {
     flex-grow: 1;
 }
+
 #logo :hover{
     cursor: pointer;
   
@@ -448,11 +449,10 @@ footer article {
         max-width: 1450px;
     }
 
-  #reservira {
-      justify-content: center;
-      margin-left: 68px;
-  }
-
+    #logo{
+        margin-left: 100px ;
+    }
+    
     header>div>nav .menu-link:hover {
         border-top: 0px ;
        
