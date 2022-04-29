@@ -627,11 +627,13 @@ footer article {
     }
 
 
-    footer article h2 {
+    footer article h2 p {
         font-size: 14px;
         margin: 5px 0px;
+        margin-left: 60px;
         padding: 20px;
     }
+  
 
 }
 
