@@ -621,13 +621,14 @@ footer article {
         display: flex;
         flex-direction: column;
         justify-items: center;
-        margin: 0px  50px
+       padding: 20px;
     }
 
     footer article {
         width: auto;
     }
 
+ 
 
     footer article h2 p {
         font-size: 14px;
