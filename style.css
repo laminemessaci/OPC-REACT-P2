@@ -144,6 +144,7 @@ header>div>nav .menu-link:hover {
     display: flex;
     flex-wrap: wrap;
     margin: 35px 0px;
+    align-items: baseline;
 }
 
 #filter h2 {
