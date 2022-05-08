@@ -45,10 +45,14 @@ h2 {
 
 h3 {
     font-size: 14px;
-    margin: 20px;
-    padding-bottom: 10px;
 }
 
+.activities-card-title{
+    display: flex;
+    margin: 20px 20px;
+    justify-content:flex-start;
+    margin-bottom: 20px;
+}
 /* Header */
 
 header div {
@@ -355,8 +359,13 @@ header>div>nav .menu-link:hover {
     border-radius: 20px;
 }
 
+
 .activity-card:hover {
     transform: scale(1.02);
+}
+
+.stretched-card article{
+    height: 510px;
 }
 
 .stretched-card img {
@@ -367,16 +376,9 @@ header>div>nav .menu-link:hover {
     border-top-right-radius: 20px;
 }
 
-h3 {
-    font-size: 14px;
-    margin: 20px;
-    padding-bottom: 10px;
-}
-
 .horizontal-card {
     display: flex;
     flex-direction: column;
-    height: 500px;
 }
 
 .horizontal-card img {
@@ -395,12 +397,13 @@ h3 {
     height: 200px;
 }
 
-.card-iles {
-    height: 200px;
-}
+
 
 .card-iles img {
-    height: 120px;
+    height: 156px;
+}
+.card-parc img {
+    height: 192px;
 }
 
 
@@ -590,10 +593,15 @@ footer article {
     }
     .stretched-card .horizontal-card{
         width: auto;
+        height: 200px;
+    }
+    .stretched-card article{
+        width: auto;
+        height: 200px;
     }
     .stretched-card img{
         width: 100%;
-        height: 160px;
+        height: 140px;
         object-fit: cover;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
@@ -601,19 +609,12 @@ footer article {
 
     .card-pomegues img {
         width: 100%;
-        height: 200px;
+        height: 160px;
         object-fit: cover;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
     }
-
-    .card-iles {
-        height: 200px;
-    }
-
-    .card-iles img {
-        height: 160px;
-    }
+  
 
 /* footer responsive */
     footer #footer-block {
