@@ -415,7 +415,7 @@ footer {
 footer #footer-block {
     display: flex;
     margin: auto;
-    padding: 40px 60px;
+    padding: 40px 10px;
     max-width: 1350px;
 }
 
