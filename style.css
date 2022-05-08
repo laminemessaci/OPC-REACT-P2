@@ -454,7 +454,9 @@ footer article {
     }
 
     #logo{
-        margin-left: 100px ;
+       display: flex;
+       justify-content: center;
+       margin-top: 20px;
     }
     
     header>div>nav .menu-link:hover {
@@ -468,6 +470,7 @@ footer article {
         font-weight: bold;
     }
 
+  
     #menu a {
         margin: 0px 5px;
     }
