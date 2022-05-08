@@ -52,7 +52,7 @@ h3 {
 /* Header */
 
 header div {
-    padding: 5px 50px;
+    padding: 0px 50px;
     display: flex;
     align-items: flex-end;
     flex-wrap: wrap;
