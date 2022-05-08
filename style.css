@@ -506,6 +506,12 @@ footer article {
         display: block;
     }
 
+    header div {
+        padding: 0px 0px;
+        display: flex;
+        margin: auto;
+    }
+
     .container-nav ul {
         display: flex;
         flex-direction: row;
